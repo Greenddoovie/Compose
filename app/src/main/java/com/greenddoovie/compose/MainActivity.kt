@@ -82,9 +82,6 @@ fun DefaultPreview() {
 
 @Composable
 fun OnboardingScreen(onContinueClicked: () -> Unit) {
-    // ToDo: This state should be hoisted
-
-
     Surface {
         Column(
             modifier = Modifier.fillMaxSize(),
